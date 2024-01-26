@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:  border-box;
+    font-family: poppins sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    height: 100%;
+    width: 100%;
+}
+
+/* Navigation bar */
+
+nav {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 20px;
+       
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    
+}
+
+.nav-left .brand-name {
+    color: #1E0E62;
+       
+}
+
+
+.listitems-1 li {
+    list-style: none;
+    display: inline;
+    margin: 15px;
+}
+
+.listitems-1 li a {
+    text-decoration: none;
+    color: #15143966;
+}
+
+.listitems-1 select {
+    background: transparent;
+    border: none;
+    color: #15143966;
+}
+
+.nav-right   {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.listitems-2 li {
+    list-style: none;
+    display: inline;
+    margin: 15px;
+}
+
+.listitems-2 li a {
+    text-decoration: none;
+    color: #15143966;
+}
+.signup-btn button {
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    background: #25DAC5;
+    color: #fff;
+    border: none;
+    margin-top: 15px;
+}
+
+/* Main Content */
+
+.main-content {
+    height: 80%;
+    margin: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-left  {
+    width: 50%;
+    height: 100%;
+       
+}
+
+.main-left  .heading {
+    margin-bottom: 40px;
+    color: #1E0E62;
+
+}
+
+.main-left .footer {
+    margin-left: 20px;
+    margin-top: -10px;
+    color:#15143966;
+    
+}
+
+input, button {
+    border-radius: 20px;
+    width: 270px;
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #EBEAED;
+}
+
+.main-content button {
+    background: #25DAC5;
+    border: none;
+    color: #fff;
+}
+
+.main-right {
+    width: 50%;
+    height: 100%;
+    
+}
+
+.main-right img {
+    width: 55%;
+    float: right;
+}
